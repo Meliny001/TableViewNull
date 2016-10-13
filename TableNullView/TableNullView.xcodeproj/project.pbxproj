@@ -1,0 +1,621 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4DF9BB8A0D9EA676D006BED6 /* libPods-TableNullView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 736D0B6A9FD69B1EB4839E27 /* libPods-TableNullView.a */; };
+		DC3214451DACD60300668FC6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3214441DACD60300668FC6 /* main.m */; };
+		DC3214481DACD60300668FC6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3214471DACD60300668FC6 /* AppDelegate.m */; };
+		DC32144B1DACD60300668FC6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC32144A1DACD60300668FC6 /* ViewController.m */; };
+		DC32144E1DACD60300668FC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC32144C1DACD60300668FC6 /* Main.storyboard */; };
+		DC3214501DACD60300668FC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC32144F1DACD60300668FC6 /* Assets.xcassets */; };
+		DC3214531DACD60300668FC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC3214511DACD60300668FC6 /* LaunchScreen.storyboard */; };
+		DC32145E1DACD60300668FC6 /* TableNullViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC32145D1DACD60300668FC6 /* TableNullViewTests.m */; };
+		DC3214691DACD60300668FC6 /* TableNullViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3214681DACD60300668FC6 /* TableNullViewUITests.m */; };
+		DC3214771DACD8B500668FC6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC3214761DACD8B500668FC6 /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC32145A1DACD60300668FC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC3214381DACD60300668FC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC32143F1DACD60300668FC6;
+			remoteInfo = TableNullView;
+		};
+		DC3214651DACD60300668FC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC3214381DACD60300668FC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC32143F1DACD60300668FC6;
+			remoteInfo = TableNullView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		483A5275A5F67999F670BD1A /* Pods-TableNullView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableNullView.release.xcconfig"; path = "Pods/Target Support Files/Pods-TableNullView/Pods-TableNullView.release.xcconfig"; sourceTree = "<group>"; };
+		5624155016A7C9F2D4D62533 /* Pods-TableNullView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableNullView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TableNullView/Pods-TableNullView.debug.xcconfig"; sourceTree = "<group>"; };
+		736D0B6A9FD69B1EB4839E27 /* libPods-TableNullView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TableNullView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC3214401DACD60300668FC6 /* TableNullView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableNullView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC3214441DACD60300668FC6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DC3214461DACD60300668FC6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DC3214471DACD60300668FC6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DC3214491DACD60300668FC6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DC32144A1DACD60300668FC6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DC32144D1DACD60300668FC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC32144F1DACD60300668FC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC3214521DACD60300668FC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC3214541DACD60300668FC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC3214591DACD60300668FC6 /* TableNullViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableNullViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC32145D1DACD60300668FC6 /* TableNullViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableNullViewTests.m; sourceTree = "<group>"; };
+		DC32145F1DACD60300668FC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC3214641DACD60300668FC6 /* TableNullViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableNullViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC3214681DACD60300668FC6 /* TableNullViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableNullViewUITests.m; sourceTree = "<group>"; };
+		DC32146A1DACD60300668FC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC3214761DACD8B500668FC6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC32143D1DACD60300668FC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DF9BB8A0D9EA676D006BED6 /* libPods-TableNullView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC3214561DACD60300668FC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC3214611DACD60300668FC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E5F520686429AE8C35A7215 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				736D0B6A9FD69B1EB4839E27 /* libPods-TableNullView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3C3EC1518F77149978A1D658 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5624155016A7C9F2D4D62533 /* Pods-TableNullView.debug.xcconfig */,
+				483A5275A5F67999F670BD1A /* Pods-TableNullView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DC3214371DACD60300668FC6 = {
+			isa = PBXGroup;
+			children = (
+				DC3214421DACD60300668FC6 /* TableNullView */,
+				DC32145C1DACD60300668FC6 /* TableNullViewTests */,
+				DC3214671DACD60300668FC6 /* TableNullViewUITests */,
+				DC3214411DACD60300668FC6 /* Products */,
+				3C3EC1518F77149978A1D658 /* Pods */,
+				1E5F520686429AE8C35A7215 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DC3214411DACD60300668FC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC3214401DACD60300668FC6 /* TableNullView.app */,
+				DC3214591DACD60300668FC6 /* TableNullViewTests.xctest */,
+				DC3214641DACD60300668FC6 /* TableNullViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC3214421DACD60300668FC6 /* TableNullView */ = {
+			isa = PBXGroup;
+			children = (
+				DC3214461DACD60300668FC6 /* AppDelegate.h */,
+				DC3214471DACD60300668FC6 /* AppDelegate.m */,
+				DC3214491DACD60300668FC6 /* ViewController.h */,
+				DC32144A1DACD60300668FC6 /* ViewController.m */,
+				DC32144C1DACD60300668FC6 /* Main.storyboard */,
+				DC3214761DACD8B500668FC6 /* Images.xcassets */,
+				DC32144F1DACD60300668FC6 /* Assets.xcassets */,
+				DC3214511DACD60300668FC6 /* LaunchScreen.storyboard */,
+				DC3214541DACD60300668FC6 /* Info.plist */,
+				DC3214431DACD60300668FC6 /* Supporting Files */,
+			);
+			path = TableNullView;
+			sourceTree = "<group>";
+		};
+		DC3214431DACD60300668FC6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC3214441DACD60300668FC6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DC32145C1DACD60300668FC6 /* TableNullViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC32145D1DACD60300668FC6 /* TableNullViewTests.m */,
+				DC32145F1DACD60300668FC6 /* Info.plist */,
+			);
+			path = TableNullViewTests;
+			sourceTree = "<group>";
+		};
+		DC3214671DACD60300668FC6 /* TableNullViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DC3214681DACD60300668FC6 /* TableNullViewUITests.m */,
+				DC32146A1DACD60300668FC6 /* Info.plist */,
+			);
+			path = TableNullViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC32143F1DACD60300668FC6 /* TableNullView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC32146D1DACD60300668FC6 /* Build configuration list for PBXNativeTarget "TableNullView" */;
+			buildPhases = (
+				DAEC60820D036DADE7AEA692 /* 📦 Check Pods Manifest.lock */,
+				DC32143C1DACD60300668FC6 /* Sources */,
+				DC32143D1DACD60300668FC6 /* Frameworks */,
+				DC32143E1DACD60300668FC6 /* Resources */,
+				16676129DACD5A1DC3D7580D /* 📦 Embed Pods Frameworks */,
+				A038F757B0F31F3C34761F82 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TableNullView;
+			productName = TableNullView;
+			productReference = DC3214401DACD60300668FC6 /* TableNullView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC3214581DACD60300668FC6 /* TableNullViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC3214701DACD60300668FC6 /* Build configuration list for PBXNativeTarget "TableNullViewTests" */;
+			buildPhases = (
+				DC3214551DACD60300668FC6 /* Sources */,
+				DC3214561DACD60300668FC6 /* Frameworks */,
+				DC3214571DACD60300668FC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC32145B1DACD60300668FC6 /* PBXTargetDependency */,
+			);
+			name = TableNullViewTests;
+			productName = TableNullViewTests;
+			productReference = DC3214591DACD60300668FC6 /* TableNullViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DC3214631DACD60300668FC6 /* TableNullViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC3214731DACD60300668FC6 /* Build configuration list for PBXNativeTarget "TableNullViewUITests" */;
+			buildPhases = (
+				DC3214601DACD60300668FC6 /* Sources */,
+				DC3214611DACD60300668FC6 /* Frameworks */,
+				DC3214621DACD60300668FC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC3214661DACD60300668FC6 /* PBXTargetDependency */,
+			);
+			name = TableNullViewUITests;
+			productName = TableNullViewUITests;
+			productReference = DC3214641DACD60300668FC6 /* TableNullViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC3214381DACD60300668FC6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = magic;
+				TargetAttributes = {
+					DC32143F1DACD60300668FC6 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = CP85K7XW3G;
+						ProvisioningStyle = Automatic;
+					};
+					DC3214581DACD60300668FC6 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = CP85K7XW3G;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DC32143F1DACD60300668FC6;
+					};
+					DC3214631DACD60300668FC6 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = CP85K7XW3G;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DC32143F1DACD60300668FC6;
+					};
+				};
+			};
+			buildConfigurationList = DC32143B1DACD60300668FC6 /* Build configuration list for PBXProject "TableNullView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC3214371DACD60300668FC6;
+			productRefGroup = DC3214411DACD60300668FC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC32143F1DACD60300668FC6 /* TableNullView */,
+				DC3214581DACD60300668FC6 /* TableNullViewTests */,
+				DC3214631DACD60300668FC6 /* TableNullViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC32143E1DACD60300668FC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC3214531DACD60300668FC6 /* LaunchScreen.storyboard in Resources */,
+				DC3214771DACD8B500668FC6 /* Images.xcassets in Resources */,
+				DC3214501DACD60300668FC6 /* Assets.xcassets in Resources */,
+				DC32144E1DACD60300668FC6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC3214571DACD60300668FC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC3214621DACD60300668FC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		16676129DACD5A1DC3D7580D /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TableNullView/Pods-TableNullView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A038F757B0F31F3C34761F82 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TableNullView/Pods-TableNullView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAEC60820D036DADE7AEA692 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC32143C1DACD60300668FC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC32144B1DACD60300668FC6 /* ViewController.m in Sources */,
+				DC3214481DACD60300668FC6 /* AppDelegate.m in Sources */,
+				DC3214451DACD60300668FC6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC3214551DACD60300668FC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC32145E1DACD60300668FC6 /* TableNullViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC3214601DACD60300668FC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC3214691DACD60300668FC6 /* TableNullViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC32145B1DACD60300668FC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC32143F1DACD60300668FC6 /* TableNullView */;
+			targetProxy = DC32145A1DACD60300668FC6 /* PBXContainerItemProxy */;
+		};
+		DC3214661DACD60300668FC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC32143F1DACD60300668FC6 /* TableNullView */;
+			targetProxy = DC3214651DACD60300668FC6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC32144C1DACD60300668FC6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC32144D1DACD60300668FC6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC3214511DACD60300668FC6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC3214521DACD60300668FC6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC32146B1DACD60300668FC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DC32146C1DACD60300668FC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC32146E1DACD60300668FC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5624155016A7C9F2D4D62533 /* Pods-TableNullView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CP85K7XW3G;
+				INFOPLIST_FILE = TableNullView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.magic.TableNullView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DC32146F1DACD60300668FC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 483A5275A5F67999F670BD1A /* Pods-TableNullView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CP85K7XW3G;
+				INFOPLIST_FILE = TableNullView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.magic.TableNullView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DC3214711DACD60300668FC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = CP85K7XW3G;
+				INFOPLIST_FILE = TableNullViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.magic.TableNullViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TableNullView.app/TableNullView";
+			};
+			name = Debug;
+		};
+		DC3214721DACD60300668FC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = CP85K7XW3G;
+				INFOPLIST_FILE = TableNullViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.magic.TableNullViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TableNullView.app/TableNullView";
+			};
+			name = Release;
+		};
+		DC3214741DACD60300668FC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = CP85K7XW3G;
+				INFOPLIST_FILE = TableNullViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.magic.TableNullViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TableNullView;
+			};
+			name = Debug;
+		};
+		DC3214751DACD60300668FC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = CP85K7XW3G;
+				INFOPLIST_FILE = TableNullViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.magic.TableNullViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TableNullView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC32143B1DACD60300668FC6 /* Build configuration list for PBXProject "TableNullView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC32146B1DACD60300668FC6 /* Debug */,
+				DC32146C1DACD60300668FC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC32146D1DACD60300668FC6 /* Build configuration list for PBXNativeTarget "TableNullView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC32146E1DACD60300668FC6 /* Debug */,
+				DC32146F1DACD60300668FC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC3214701DACD60300668FC6 /* Build configuration list for PBXNativeTarget "TableNullViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC3214711DACD60300668FC6 /* Debug */,
+				DC3214721DACD60300668FC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC3214731DACD60300668FC6 /* Build configuration list for PBXNativeTarget "TableNullViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC3214741DACD60300668FC6 /* Debug */,
+				DC3214751DACD60300668FC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC3214381DACD60300668FC6 /* Project object */;
+}

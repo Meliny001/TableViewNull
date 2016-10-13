@@ -1,0 +1,5 @@
+target "TableNullView" do
+platform :ios, '8.0'
+pod 'DZNEmptyDataSet', '~> 1.8.1'
+
+end
